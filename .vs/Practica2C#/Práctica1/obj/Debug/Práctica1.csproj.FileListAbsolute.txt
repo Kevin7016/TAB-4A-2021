@@ -1,0 +1,20 @@
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Pyoyectos\TAP-4A-2021\Practicas\C#\Práctica1\Práctica1\bin\Debug\Práctica1.exe.config
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Pyoyectos\TAP-4A-2021\Practicas\C#\Práctica1\Práctica1\bin\Debug\Práctica1.exe
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Pyoyectos\TAP-4A-2021\Practicas\C#\Práctica1\Práctica1\bin\Debug\Práctica1.pdb
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Pyoyectos\TAP-4A-2021\Practicas\C#\Práctica1\Práctica1\obj\Debug\Práctica1.csprojAssemblyReference.cache
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Pyoyectos\TAP-4A-2021\Practicas\C#\Práctica1\Práctica1\obj\Debug\Práctica1.Form1.resources
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Pyoyectos\TAP-4A-2021\Practicas\C#\Práctica1\Práctica1\obj\Debug\Práctica1.Properties.Resources.resources
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Pyoyectos\TAP-4A-2021\Practicas\C#\Práctica1\Práctica1\obj\Debug\Práctica1.csproj.GenerateResource.cache
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Pyoyectos\TAP-4A-2021\Practicas\C#\Práctica1\Práctica1\obj\Debug\Práctica1.csproj.CoreCompileInputs.cache
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Pyoyectos\TAP-4A-2021\Practicas\C#\Práctica1\Práctica1\obj\Debug\Práctica1.exe
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Pyoyectos\TAP-4A-2021\Practicas\C#\Práctica1\Práctica1\obj\Debug\Práctica1.pdb
+C:\Users\molin\Downloads\Videokk\Práctica 2\C\Práctica1\obj\Debug\Práctica1.csprojAssemblyReference.cache
+C:\Users\molin\Downloads\Videokk\Práctica 2\C\Práctica1\obj\Debug\Práctica1.Form1.resources
+C:\Users\molin\Downloads\Videokk\Práctica 2\C\Práctica1\obj\Debug\Práctica1.Properties.Resources.resources
+C:\Users\molin\Downloads\Videokk\Práctica 2\C\Práctica1\obj\Debug\Práctica1.csproj.GenerateResource.cache
+C:\Users\molin\Downloads\Videokk\Práctica 2\C\Práctica1\obj\Debug\Práctica1.csproj.CoreCompileInputs.cache
+C:\Users\molin\Downloads\Videokk\Práctica 2\C\Práctica1\obj\Debug\Práctica1.exe
+C:\Users\molin\Downloads\Videokk\Práctica 2\C\Práctica1\obj\Debug\Práctica1.pdb
+C:\Users\molin\Downloads\Videokk\Práctica 2\C\Práctica1\bin\Debug\Práctica1.exe.config
+C:\Users\molin\Downloads\Videokk\Práctica 2\C\Práctica1\bin\Debug\Práctica1.exe
+C:\Users\molin\Downloads\Videokk\Práctica 2\C\Práctica1\bin\Debug\Práctica1.pdb
