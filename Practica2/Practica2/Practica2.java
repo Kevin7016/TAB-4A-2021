@@ -4,149 +4,140 @@ package Practica2;
  *
  * @author molin
  */
-import java.awt.*;
+import java.awt.Frame;
 import java.awt.event.*;
-import javax.swing.*;
 
-public class Practica2 extends JFrame {
-
-   
+public class Practica2 extends Frame implements MouseListener, MouseMotionListener, KeyListener{
+    
+    /**
+     *
+     */
     private static final long serialVersionUID = 1L;
+    private Forma zonaDeDibujo;
 
     public Practica2() {
-        componentesinit();
+        initComponents();
     }
 
-    public void componentesinit() {
-
-        this.setLayout(new BorderLayout());
-        this.addKeyListener(new KeyAdapter() {
-            public void keyPressed(KeyEvent e) {
-                paintContainerKeyPressed(e);
+    public void initComponents() {
+        this.addWindowListener(new WindowAdapter() {
+            public void windowClosing(WindowEvent e) {
+                System.exit(0);
             }
         });
-
-        Circulo = new JButton("Circulo (a)");
-        Circulo.setFocusable(false);
-        Circulo.setFont(new Font("Arial", 10, 20));
-        Circulo.addActionListener(e -> CirculoActionPerformed(e));
-        
-               
-        Cuadrado = new JButton("Cuadrado (w)");
-        Cuadrado.setFocusable(false);
-        Cuadrado.setFont(new Font("Arial", 10, 20));
-        Cuadrado.addActionListener(e -> CuadradoActionPerformed(e));
-
-        Rombo = new JButton("Rombo (d)");
-        Rombo.setFocusable(false);
-        Rombo.setFont(new Font("Arial", 10, 20));
-        Rombo.addActionListener(e -> RomboActionPerformed(e));
-
-        
-
-        Boton = new JPanel();
-        Boton.setBackground(new Color(216, 241, 255));
-        Boton.add(Circulo);
-        Boton.add(Cuadrado);
-        Boton.add(Rombo);
-
-        
-        contOpciones = new JPanel();
-        contOpciones.setPreferredSize(new Dimension(90, 400));
-        contOpciones.setBackground(new Color(216, 241, 255));
-        
-        
-
         zonaDeDibujo = new Forma();
-        zonaDeDibujo.addMouseListener(new MouseAdapter() {
-            public void mouseClicked(MouseEvent e) {
-                paintContainerMouseClicked(e);
-            }
-        });
-        zonaDeDibujo.addMouseMotionListener(new MouseMotionAdapter() {
-            public void mouseDragged(MouseEvent e) {
-                paintContainerMouseDragged(e);
-            }
-        });
-        zonaDeDibujo.addKeyListener(new KeyAdapter() {
-            public void keyPressed(KeyEvent e) {
-                paintContainerKeyPressed(e);
-            }
-        });
-
-        this.add(Boton, BorderLayout.SOUTH);
-        this.add(zonaDeDibujo, BorderLayout.CENTER);
-
-        //  Ventana
-        this.setSize(500, 500);
-        this.setLocationRelativeTo(null);
+        zonaDeDibujo.addMouseListener(this);
+        zonaDeDibujo.addMouseMotionListener(this);
+        zonaDeDibujo.addKeyListener(this);
+        this.addKeyListener(this);
+        this.add(zonaDeDibujo);
+        this.setSize(450,450);
         this.setVisible(true);
-
     }
-    
-    public void reiniciar(){//metodo para reiniciar contador
-        cont = 0;
-        } 
-    
 
-    private void CirculoActionPerformed(ActionEvent e) {
-        zonaDeDibujo.setIsFigura("Circulo");
+    public static void main(String args[]) {
+        Practica2 p = new Practica2();
+    }
+    private void collisionChek()
+    {
+        if(zonaDeDibujo.getX() <= 10)
+        {
+            zonaDeDibujo.setX(10);
+        }
+        if(zonaDeDibujo.getX() >= 130)
+        {
+            zonaDeDibujo.setX(130);
+        }
+        if(zonaDeDibujo.getY() <= 100)
+        {
+            zonaDeDibujo.setY(100);
+        }
+        if(zonaDeDibujo.getY() >= 430)
+        {
+            zonaDeDibujo.setY(430);
+        }
         
     }
-        
-    private void CuadradoActionPerformed(ActionEvent e) {
-        zonaDeDibujo.setIsFigura("Cuadrado");
-        JOptionPane.showMessageDialog(null, "Cuadrado");
-    }
-    
-    private void RomboActionPerformed(ActionEvent e) {
-        zonaDeDibujo.setIsFigura("Rombo");
-        JOptionPane.showMessageDialog(null, "Rombo");
-    }
 
-    private void paintContainerMouseClicked(MouseEvent e) {
+    @Override
+    public void mouseClicked(MouseEvent arg0) {
+        System.out.println("Clicked");
+        if (zonaDeDibujo.isClicked()) {
+            zonaDeDibujo.setW(arg0.getX());
+            zonaDeDibujo.setH(arg0.getY());
+            zonaDeDibujo.repaint();
+        } else {
+            zonaDeDibujo.setX(250);
+            zonaDeDibujo.setY(270);
+        }
         zonaDeDibujo.setClicked();
-        zonaDeDibujo.repaint();
     }
 
-    private void paintContainerMouseDragged(MouseEvent e) {
+    @Override
+    public void mouseEntered(MouseEvent arg0) {
+        // TODO Auto-generated method stub
+        System.out.println("Entrando");
+    }
+
+    @Override
+    public void mouseExited(MouseEvent arg0) {
+        // TODO Auto-generated method stub
+        System.out.println("Saliendo");
+    }
+
+    @Override
+    public void mousePressed(MouseEvent arg0) {
+        // TODO Auto-generated method stub
+        System.out.println("Presionado");
+    }
+
+    @Override
+    public void mouseReleased(MouseEvent arg0) {
+        // TODO Auto-generated method stub
+        System.out.println("Liberado");
+    }
+
+    @Override
+    public void mouseDragged(MouseEvent arg0) {
+        if(!zonaDeDibujo.isClicked()) {
+            zonaDeDibujo.setX(arg0.getX());
+            zonaDeDibujo.setY(arg0.getY());
+            collisionChek();
+            zonaDeDibujo.repaint();
+        }
+        
+    }
+
+    @Override
+    public void mouseMoved(MouseEvent arg0) {
+        System.out.println("Mover");
+    }
+
+    @Override
+    public void keyPressed(KeyEvent arg0) {
+        // TODO Auto-generated method stub
+        System.out.println("Presionando " + arg0.getKeyChar());
         if (!zonaDeDibujo.isClicked()) {
-            zonaDeDibujo.setX(e.getX());
-            zonaDeDibujo.setY(e.getY());
-        }else{
-            zonaDeDibujo.setW(e.getX());
-            zonaDeDibujo.setH(e.getY());
+            switch(arg0.getKeyChar()) {
+                case 'w':
+                case 'W':
+                     zonaDeDibujo.setW(6000);
+                     zonaDeDibujo.setH(6000);
             }
             zonaDeDibujo.repaint();
         }
-    
-    private void paintContainerKeyPressed(KeyEvent e) {
-        if (!zonaDeDibujo.isClicked()) {
-            switch (e.getKeyCode()) {
-                case 'a':
-                case 'A':
-                    Circulo.doClick();
-                    break;
-                case 'w':
-                case 'W':
-                    Cuadrado.doClick();
-                    break;
-                case 'd':
-                case 'D':
-                    Rombo.doClick();
-                    break;
-                default:
-                    break;
-            }
-        }
     }
 
-    //Variables a usar
-    JButton Circulo;
-    JButton Cuadrado;
-    JButton Rombo;
-    JPanel  Boton;
-    Forma zonaDeDibujo;
-    JPanel contOpciones;
-    int cont = 0;
+    @Override
+    public void keyReleased(KeyEvent arg0) {
+        // TODO Auto-generated method stub
+        System.out.println("Liberando " + arg0.getKeyChar());
+    }
+
+    @Override
+    public void keyTyped(KeyEvent arg0) {
+        // TODO Auto-generated method stub
+        System.out.println("Tecleada: " + arg0.getKeyChar());
+    }
 }
+

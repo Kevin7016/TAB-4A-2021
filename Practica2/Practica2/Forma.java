@@ -1,70 +1,52 @@
 package Practica2;
 
-import java.awt.*;
-import javax.swing.*;
-
 /**
  *
  * @author molin
  */
-public class Forma extends JPanel {
+import java.awt.*;
 
+public class Forma extends Canvas{
     /**
      *
      */
     private static final long serialVersionUID = 1L;
     private int x, y;
     private int w, h;
-    private String isFigura;
-    boolean isClicked;
+    private boolean isClicked;
 
     public Forma() {
-        x = y = 100;
-        w = h = 100;
+        x = 250;
+        y = 270;
+        w = 300;
+        h = 220;
+        isClicked = false;
     }
 
-    @Override
-    public void paintComponent(Graphics u) {
-        super.paintComponent(u);
-        try {
-            switch (isFigura) {
-                case "Circulo":
-                    u.setColor(Color.black);
-                    u.fillOval(x, y, w, h);
-                    u.drawString("Puedo Crecer", x, y);
-                    break;
-                case "Cuadrado":
-                   u.setColor(Color.blue);
-                   u.fillRect(80, 60, w, h);
-                   u.setColor(Color.black);
-                   u.fillOval(x, y, (int)(w * 0.30), (int)(h * 0.30));
-                    break;
-                case "Rombo":
-                    if(this.isClicked){
-                    u.setColor(Color.blue);
-                    u.fillRect(x, y, w, h);
-                    u.setColor(Color.pink);
-                    u.fillOval(x, y, w, h);
-                    u.setColor(Color.black);
-                    u.fillArc(x, y, w, h, 60, 90);
-                    }else{   
-                    u.setColor(Color.blue);
-                    u.fillRect(80,60, w, h);
-                    u.setColor(Color.pink);
-                    u.fillOval(x, y, w, h);
-                    u.setColor(Color.black);
-                    u.fillArc(x, 10, w, h, 60, 90);
-                    }
-                    break;
-            }
-        } catch (Exception e) {
-        }
-    }
-
-    @Override
-    public void update(Graphics g) {
-        super.update(g);
-        paintComponent(g);
+    public void paint(Graphics g) {
+        //Cuadrado
+        g.setColor(Color.RED);
+        g.fillRect(10, 100, 200, 300);
+        g.setColor(Color.gray);
+        g.drawRect(10,100,200,300);
+        //Rombo/Rectangulo
+        g.setColor(Color.white);
+        g.drawArc(220,0, 100,0, 200, 300);
+        g.setColor(Color.BLACK);
+        g.drawRect(220, 100, 200, 300);
+        
+        //Círculo 
+        g.setColor(Color.GRAY);
+        g.drawArc(200, 0, 80, 80,0,360);
+        g.setColor(Color.green);
+        g.fillArc(200, 0, 80, 80,0,360);
+        //Objeto arrastrable
+        g.setColor(Color.GRAY);
+        g.drawArc(x, y, 80, 80,0,360);
+        g.setColor(Color.black);
+        g.fillArc(x, y, 80, 80,0,360);
+        //Texto
+        g.drawString("Figura arrastrable\n"+"\na crecer con uso de mouse(W)",170,20);
     }
 
     public int getX() {
@@ -83,10 +65,6 @@ public class Forma extends JPanel {
         this.y = y;
     }
 
-    public Forma(LayoutManager layout) {
-        super(layout);
-    }
-
     public int getW() {
         return w;
     }
@@ -103,14 +81,6 @@ public class Forma extends JPanel {
         this.h = h;
     }
 
-    public String getIsFigura() {
-        return isFigura;
-    }
-
-    public void setIsFigura(String isFigura) {
-        this.isFigura = isFigura;
-    }
-
     public boolean isClicked() {
         return isClicked;
     }
@@ -119,4 +89,3 @@ public class Forma extends JPanel {
         this.isClicked = !this.isClicked;
     }
 }
-
