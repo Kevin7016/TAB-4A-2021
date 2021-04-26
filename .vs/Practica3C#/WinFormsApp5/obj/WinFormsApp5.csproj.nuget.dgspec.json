@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\molin\\source\\repos\\WinFormsApp5\\WinFormsApp5\\WinFormsApp5.csproj": {}
+    "C:\\Users\\molin\\source\\repos\\TAB-4A-2021\\.vs\\Practica3C#\\WinFormsApp5\\WinFormsApp5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\molin\\source\\repos\\WinFormsApp5\\WinFormsApp5\\WinFormsApp5.csproj": {
+    "C:\\Users\\molin\\source\\repos\\TAB-4A-2021\\.vs\\Practica3C#\\WinFormsApp5\\WinFormsApp5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\molin\\source\\repos\\WinFormsApp5\\WinFormsApp5\\WinFormsApp5.csproj",
+        "projectUniqueName": "C:\\Users\\molin\\source\\repos\\TAB-4A-2021\\.vs\\Practica3C#\\WinFormsApp5\\WinFormsApp5.csproj",
         "projectName": "WinFormsApp5",
-        "projectPath": "C:\\Users\\molin\\source\\repos\\WinFormsApp5\\WinFormsApp5\\WinFormsApp5.csproj",
+        "projectPath": "C:\\Users\\molin\\source\\repos\\TAB-4A-2021\\.vs\\Practica3C#\\WinFormsApp5\\WinFormsApp5.csproj",
         "packagesPath": "C:\\Users\\molin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\molin\\source\\repos\\WinFormsApp5\\WinFormsApp5\\obj\\",
+        "outputPath": "C:\\Users\\molin\\source\\repos\\TAB-4A-2021\\.vs\\Practica3C#\\WinFormsApp5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\molin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "ScrapySharp": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

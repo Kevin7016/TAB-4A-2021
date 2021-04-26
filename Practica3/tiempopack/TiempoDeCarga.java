@@ -7,7 +7,7 @@ public class TiempoDeCarga {
 
     public int carga(String host){//obtencion de tiempo de carga
         try {
-            socket = new Socket(host, 65535);
+            socket = new Socket(host, 80);
             int tiempo = socket.getSoTimeout();
             return tiempo;
         } catch (Exception e) {
