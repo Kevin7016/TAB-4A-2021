@@ -1,0 +1,20 @@
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Aver\TAP-4A-2021\Practicas\C#\Práctica 2\Práctica2\obj\Debug\Práctica2.csprojAssemblyReference.cache
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Aver\TAP-4A-2021\Practicas\C#\Práctica 2\Práctica2\obj\Debug\Práctica2.Form1.resources
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Aver\TAP-4A-2021\Practicas\C#\Práctica 2\Práctica2\obj\Debug\Práctica2.Properties.Resources.resources
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Aver\TAP-4A-2021\Practicas\C#\Práctica 2\Práctica2\obj\Debug\Práctica2.csproj.GenerateResource.cache
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Aver\TAP-4A-2021\Practicas\C#\Práctica 2\Práctica2\obj\Debug\Práctica2.csproj.CoreCompileInputs.cache
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Aver\TAP-4A-2021\Practicas\C#\Práctica 2\Práctica2\bin\Debug\Práctica2.exe.config
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Aver\TAP-4A-2021\Practicas\C#\Práctica 2\Práctica2\bin\Debug\Práctica2.exe
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Aver\TAP-4A-2021\Practicas\C#\Práctica 2\Práctica2\bin\Debug\Práctica2.pdb
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Aver\TAP-4A-2021\Practicas\C#\Práctica 2\Práctica2\obj\Debug\Práctica2.exe
+D:\980016451\Documents\Cuarto semestre\Topicos avanz. de programación\Aver\TAP-4A-2021\Practicas\C#\Práctica 2\Práctica2\obj\Debug\Práctica2.pdb
+C:\Users\molin\Downloads\Cock\Práctica2_C#\bin\Debug\Práctica2.exe.config
+C:\Users\molin\Downloads\Cock\Práctica2_C#\bin\Debug\Práctica2.exe
+C:\Users\molin\Downloads\Cock\Práctica2_C#\bin\Debug\Práctica2.pdb
+C:\Users\molin\Downloads\Cock\Práctica2_C#\obj\Debug\Práctica2.csprojAssemblyReference.cache
+C:\Users\molin\Downloads\Cock\Práctica2_C#\obj\Debug\Práctica2.Form1.resources
+C:\Users\molin\Downloads\Cock\Práctica2_C#\obj\Debug\Práctica2.Properties.Resources.resources
+C:\Users\molin\Downloads\Cock\Práctica2_C#\obj\Debug\Práctica2.csproj.GenerateResource.cache
+C:\Users\molin\Downloads\Cock\Práctica2_C#\obj\Debug\Práctica2.csproj.CoreCompileInputs.cache
+C:\Users\molin\Downloads\Cock\Práctica2_C#\obj\Debug\Práctica2.exe
+C:\Users\molin\Downloads\Cock\Práctica2_C#\obj\Debug\Práctica2.pdb

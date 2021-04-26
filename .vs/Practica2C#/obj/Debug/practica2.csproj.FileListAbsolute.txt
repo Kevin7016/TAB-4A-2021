@@ -1,0 +1,10 @@
+C:\Users\molin\Downloads\Cock\Práctica2_C#\obj\Debug\practica2.csprojAssemblyReference.cache
+C:\Users\molin\Downloads\Cock\Práctica2_C#\obj\Debug\practica2.Form1.resources
+C:\Users\molin\Downloads\Cock\Práctica2_C#\obj\Debug\Práctica2.Properties.Resources.resources
+C:\Users\molin\Downloads\Cock\Práctica2_C#\obj\Debug\practica2.csproj.GenerateResource.cache
+C:\Users\molin\Downloads\Cock\Práctica2_C#\obj\Debug\practica2.csproj.CoreCompileInputs.cache
+C:\Users\molin\Downloads\Cock\Práctica2_C#\obj\Debug\Práctica2.exe
+C:\Users\molin\Downloads\Cock\Práctica2_C#\obj\Debug\Práctica2.pdb
+C:\Users\molin\Downloads\Cock\Práctica2_C#\bin\Debug\Práctica2.exe.config
+C:\Users\molin\Downloads\Cock\Práctica2_C#\bin\Debug\Práctica2.exe
+C:\Users\molin\Downloads\Cock\Práctica2_C#\bin\Debug\Práctica2.pdb
