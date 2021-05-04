@@ -1,11 +1,12 @@
-package websjava;
+package Practica3.websjava;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.Arrays;
-import direktoriopack.Directorios;
-import ippack.DireccionIP;
-import tiempopack.TiempoDeCarga;
+
+import Practica3.direktoriopack.Directorios;
+import Practica3.ippack.DireccionIP;
+import Practica3.tiempopack.TiempoDeCarga;
 
 
 public class vistaDEweb extends javax.swing.JFrame {

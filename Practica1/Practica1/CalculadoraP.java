@@ -1,4 +1,4 @@
-package Practica1;
+package Practica1.Practica1;
 
 import java.awt.*;
 import java.awt.event.*;

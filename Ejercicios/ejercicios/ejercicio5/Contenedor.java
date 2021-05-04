@@ -1,4 +1,4 @@
-package ejercicios.ejercicio5;
+package Ejercicios.ejercicios.ejercicio5;
 import java.awt.*;
 
 public class Contenedor extends Canvas{

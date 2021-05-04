@@ -1,4 +1,4 @@
-package Venana;
+package BlockNota.Venana;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 

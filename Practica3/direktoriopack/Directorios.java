@@ -1,4 +1,4 @@
-package direktoriopack;
+package Practica3.direktoriopack;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

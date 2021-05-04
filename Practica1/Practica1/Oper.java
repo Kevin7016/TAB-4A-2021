@@ -1,4 +1,4 @@
-package Practica1;
+package Practica1.Practica1;
 public class Oper {
     public String Ope(int d, int j, String op) {
         switch (op) {//Operaciones

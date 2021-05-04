@@ -1,4 +1,4 @@
-package Practica2;
+package Practica2.Practica2;
 
 /**
  *

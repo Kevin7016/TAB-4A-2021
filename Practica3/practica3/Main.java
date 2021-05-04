@@ -1,6 +1,6 @@
-package practica3;
+package Practica3.practica3;
 
-import websjava.vistaDEweb;
+import Practica3.websjava.vistaDEweb;
 
 public class Main {//clase de llamado Main
     public static void main (String []args){

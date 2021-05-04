@@ -1,4 +1,4 @@
-package Venana;
+package BlockNota.Venana;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
