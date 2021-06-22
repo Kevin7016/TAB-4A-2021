@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica5.MainPage">
+
+    <StackLayout VerticalOptions="Center"
+                 Margin="30">
+        <Label Text="INGRESE SUS DATOS"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <Entry
+            x:Name="txtUser"
+            Placeholder="Ingrese su usuario"
+            Keyboard="Email"
+            />
+        <Entry
+            x:Name="txtPassword"
+            Placeholder="Ingrese su contraseña"
+            IsPassword="True"
+            />
+        <Button
+            Text="Log In"
+            TextColor="Green"
+            BackgroundColor="BlanchedAlmond"
+            Clicked="Button_Clicked"
+            Margin="0,100,0,0"
+            />
+    </StackLayout>
+
+</ContentPage>

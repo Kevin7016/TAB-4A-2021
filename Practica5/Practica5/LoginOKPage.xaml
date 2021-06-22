@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica5.LoginOKPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center"
+                     Margin="20">
+            <Label Text="Encantado, Inicio Exitoso"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button 
+                Text="Loguearse con otra cuenta"
+                TextColor="Green"
+                BackgroundColor="Aqua"
+                Clicked="Button_Clicked" AnchorX="1" AnchorY="1"
+                Margin="0,100,0,0"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
