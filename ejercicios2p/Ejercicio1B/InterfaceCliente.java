@@ -1,4 +1,4 @@
-package ejercicios2p;
+package ejercicios2p.Ejercicio1B;
 import java.awt.*;
 import javax.swing.*;
 

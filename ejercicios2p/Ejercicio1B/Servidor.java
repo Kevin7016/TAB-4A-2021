@@ -1,10 +1,12 @@
-package ejercicios2p;
+package ejercicios2p.Ejercicio1B;
 
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
+
+import ejercicios2p.Ejercicio1A.Atendedor;
 
 public class Servidor {
     ServerSocket server;
